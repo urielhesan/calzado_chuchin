@@ -1,0 +1,108 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: black;
+}
+header, footer{
+    background-color: #fff;
+}
+.menu_principal{color: black}
+.menu_principal:hover{color:#81171f}
+#texto_Red_Soc:hover{color:#81171f}
+h3{
+    border: solid 5px #81171f;
+    background-color: #fff;
+    color: black;
+}
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+#collapsibleNavbar{
+    margin-left: 45%;
+}
+.logo_CCH{
+    width: 45%;
+}
+#carrusel{
+    border: solid 10px #81171f;
+}
+.carousel-inner img{
+    margin-left: 21%;
+}
+.servicios{
+    margin: 1% 13.5%;
+}
+.servicios p{
+    text-align: center;
+}
+.img_servicios{
+    border: solid 5px #81171f
+}
+.ejemplos_trabajos{
+    height: 31rem;
+    background-color: #fff;
+}
+.imagen_ejemplos_trabajos{
+    width: 63%;
+    border: solid 5px #81171f;
+    margin-top: 12px;
+}
+.imagen_trabajo_gal{
+    width: 16.8%;
+    margin: 14px 5px;
+    border: solid 5px #81171f;
+}
+.procedimiento_empleo{
+    margin-top: 10px;
+}
+.procedimiento_empleo_gal{
+    margin: 0% 13%
+}
+.procedimiento_empleo_gal .img_procd_empl{
+    margin: 2% 6%;
+    border: solid 5px #81171f;
+    background-color: #fff;
+}
+#texto_procd_empleo{
+    text-align: center;
+}
+#collapsibleNavba2{
+    margin-left: 0%;
+}
+.redes_sociales{
+    margin-right: 0%;
+}
+.redes_sociales_logo{
+    margin: 0px 5px;
+}
+#texto_Red_Soc{
+    margin-top: 15px;
+    color: black;
+}
+@media (max-width: 600px) {
+    #carrusel {
+        display: none;
+    }
+    .ejemplos_trabajos{
+        display: none;
+    }
+    .procedimiento_empleo_gal{
+        margin: 0% 1.8%;
+    }
+    .servicios{
+        margin: 5% 1%;
+    }
+    .img_servicios{
+        margin: 0% 10%;
+        width: 80%;
+    }
+    .procedimiento_empleo img{
+        margin-left: 25%;
+    }
+    #collapsibleNavbar{
+        margin-left: 0%;
+    }
+
+}
